@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/login.js" defer></script>
+</head>
+<body>
+    <div>
+    <h2>Welcome to our Calculator App</h2> 
+</div>
+    <form id="loginForm"> <br>
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter Northeastern email" required>
+        <small class="error" id="emailError"></small>
+        <br>
+        <label>User Name:</label>
+        <input type="text" id="username" placeholder="Enter username" required>
+        <small class="error" id="usernameError"></small>
+        <br>
+        <label>Password:</label>
+        <input type="password" id="password" required>
+        <small class="error" id="passwordError"></small>
+        <br>
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+        <small class="error" id="confirmPasswordError"></small>
+        <br>
+        <button type="submit" id="loginButton" disabled>Login</button>
+    </form>
+</body>
+</html>
